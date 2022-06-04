@@ -255,8 +255,13 @@ nav {
 /* Media Query */
 
 @media (max-width: 1028px) {
-
+    
     /* Header */
+    
+    nav img {
+        width: 50%;
+    }
+    
     .header-body {
         padding: 20% 10%;
         background-image: url(../images/bg-section-top-mobile-1.svg);
